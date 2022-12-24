@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora de Calzados Rodriguez</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html"><img src="../images/Sin fondo.png"></a>
+      
+        <nav>
+            <ul>
+              <li><a href="../pages/mayorista.html">Mayorista</a></li>
+              <li><a href="../pages/quienessomos.html">Quienes Somos</a></li>
+              <li><a href="../pages/comocomprar.html">Como Comprar</a></li>
+              <li><a href="../pages/catalogo.html">Catalogo</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+            <div class="hide">
+              <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </div>
+          </nav>
+          
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+              $(".hide").on('click', function() {
+                $("nav ul").toggle('slow');
+              })
+            </script>
+    </header>
+    <main>
+        <div class="quienessomos">
+            <a>Quienes Somos?</a>
+            </a>Distribuidora Rodriguez es una distribuidora mayorista que esta ubicada en el partido de moreno desde el año
+            2022; con mas de 20 años en la fabricacion y didstribucion de calzado a todo el pais.</a>
+            </a> Se dedica a la venta directa de calzado de damas, caballeros y niños a precios de fabrica, con un exlusivo catalogo que acaba de lanzar los nuevos modelos.</a>
+        </div>
+
+        <section class="form-contact">
+                <a class="consultanos">Consultanos</a>
+            <form action="" class="contact" method="POST">
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres">
+
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo">
+
+                <label for="nombres">Celular</label>
+                <input type="text" name="celular" id="celular">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Datos de contacto</p>
+        <ul>
+            <li ><img src="../images/580b57fcd9996e24bc43c521.png" width="20px" height="20px">DistribuidoraPDR</li>
+            <li ><img src="../images/wpp.png" width="20px" height="20px">+541111111111</li>
+            <li><img src="../images/mail.png" width="35px" height="15px">distribuidorapdr@gmail.com</li>
+            <li><img src="../images/f66d49097e18978ddf46282c233040a9.png>" width="20px" height="20px">Distribuidora.PDR</li>
+        </ul>
+    </footer>
+
+
+
+</body>
+
+</html>
